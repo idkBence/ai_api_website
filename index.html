@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Rift AI - High performance AI APIs for computer vision, language, and prediction.">
+
+    <meta property="og:title" content="Rift AI | Future Intelligence">
+    <meta property="og:description"
+        content="Integrate state-of-the-art AI models into your product with a single line of code.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1200">
+    <meta property="og:type" content="website">
+
+    <title>Rift AI</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2240%22 stroke=%22%238b5cf6%22 stroke-width=%2212%22 fill=%22none%22 opacity=%220.6%22/><circle cx=%2250%22 cy=%2250%22 r=%2225%22 stroke=%22%23ec4899%22 stroke-width=%2210%22 fill=%22none%22/><circle cx=%2250%22 cy=%2250%22 r=%2210%22 fill=%22%23ffffff%22/></svg>">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo-link">
+                <img src="logo1.png" alt="Rift AI Logo" class="logo-img">
+                <span class="brand-name">RIFT AI</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="team.html">Company</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <div class="hero-content animate-entry">
+                <span
+                    style="color: var(--accent-primary); font-weight: 600; letter-spacing: 1px; text-transform: uppercase; font-size: 0.8rem; margin-bottom: 1rem; margin-top: 2rem; display: block;">API
+                    First Platform</span>
+                <h1>Supercharge your app with Neural AI.</h1>
+                <p>Integrate state-of-the-art artificial intelligence models into your product with a single line of
+                    code. Secure, scalable, and lightning fast.</p>
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <a href="products.html" class="btn btn-primary">Explore Products</a>
+                    <a href="pricing.html" class="btn btn-secondary">View Pricing</a>
+                </div>
+            </div>
+            <div class="hero-image animate-entry delay-1">
+                <img src="assets/images/photo-1677442136019-21780ecad995.avif"
+                    alt="Abstract AI Visualization">
+            </div>
+        </section>
+
+        <section class="scroll-element" style="margin-top: 4rem; opacity: 1;">
+            <p
+                style="text-align: center; font-size: 0.8rem; margin-bottom: 2rem; letter-spacing: 1px; text-transform: uppercase; font-weight: 600; opacity: 0.6;">
+                Trusted by engineering teams at</p>
+            <div class="marquee-container">
+                <div class="marquee-track">
+                    <span class="marquee-item">Fazbear Entertainment</span>
+                    <span class="marquee-item">ACME Corp</span>
+                    <span class="marquee-item">Hyperion</span>
+                    <span class="marquee-item">Globex</span>
+                    <span class="marquee-item">Soylent</span>
+                    <span class="marquee-item">Umbrella Inc.</span>
+                    <span class="marquee-item">Cyberdyne</span>
+                    <span class="marquee-item">Stark Ind</span>
+                    <span class="marquee-item">Fazbear Entertainment</span>
+                    <span class="marquee-item">Wayne Ent</span>
+                    <span class="marquee-item">ACME Corp</span>
+                    <span class="marquee-item">Hyperion</span>
+                    <span class="marquee-item">Globex</span>
+                    <span class="marquee-item">Soylent</span>
+                    <span class="marquee-item">Umbrella Inc.</span>
+                    <span class="marquee-item">Cyberdyne</span>
+                    <span class="marquee-item">Stark Ind</span>
+                    <span class="marquee-item">Wayne Ent</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="feature-split scroll-element" style="margin-top: 8rem;">
+            <div class="text-content">
+                <h2>Integrate in minutes, not weeks.</h2>
+                <p>Our APIs are designed by developers, for developers. With our simple SDKs, you can add computer
+                    vision or language processing to your Node, Python, or Go app instantly.</p>
+                <ul class="split-list">
+                    <li style="margin-bottom: 10px;"> <strong>99.9% Uptime SLA</strong> guaranteed</li>
+                    <li style="margin-bottom: 10px;"> <strong>Type-safe</strong> SDKs available</li>
+                    <li style="margin-bottom: 10px;"> <strong>Low latency</strong> edge network</li>
+                </ul>
+            </div>
+            <div class="code-window">
+                <div class="code-header"><span class="dot red"></span><span class="dot yellow"></span><span
+                        class="dot green"></span></div>
+                <div class="code-content">
+                    <div style="margin-bottom: 10px;"><span class="c-gray">// Initialize Rift AI Client</span></div>
+                    <div><span class="c-purple">import</span> { Rift } <span class="c-purple">from</span> <span
+                            class="c-green">'@rift-ai/sdk'</span>;</div>
+                    <br>
+                    <div><span class="c-purple">const</span> client = <span class="c-purple">new</span> <span
+                            class="c-blue">Rift</span>(process.env.API_KEY);</div>
+                    <br>
+                    <div><span class="c-gray">// Detect objects in image</span></div>
+                    <div><span class="c-purple">const</span> result = <span class="c-purple">await</span>
+                        client.vision.<span class="c-blue">detect</span>({</div>
+                    <div style="padding-left: 20px;">image: <span class="c-green">'https://img.url/scan.jpg'</span>,
+                    </div>
+                    <div style="padding-left: 20px;">model: <span class="c-green">'v2-accurate'</span></div>
+                    <div>});</div>
+                    <br>
+                    <div>console.<span class="c-blue">log</span>(result.objects);</div>
+                </div>
+            </div>
+        </section>
+
+        <section style="margin-top: 8rem; margin-bottom: 4rem;">
+            <div style="text-align: center; max-width: 600px; margin: 0 auto 4rem auto;" class="scroll-element">
+                <h2>Built for Scale</h2>
+                <p>We handle the infrastructure complexity so you can focus on building amazing user experiences.</p>
+            </div>
+            <div class="grid grid-3">
+                <div class="card scroll-element">
+                    <h3 style="color: var(--accent-secondary);">Global Scale</h3>
+                    <p>Enterprise-grade reliability with redundant global data centers ensuring your AI is always
+                        available.</p>
+                </div>
+                <div class="card scroll-element">
+                    <h3 style="color: var(--accent-primary);">Real-time</h3>
+                    <p>Our edge computing network processes requests in milliseconds. Don't let your users wait for
+                        intelligence.</p>
+                </div>
+                <div class="card scroll-element">
+                    <h3 style="color: white;">Secure</h3>
+                    <p>SOC2 compliant infrastructure with end-to-end encryption for your most sensitive data.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo-link" style="margin-bottom: 1rem;">
+                        <img src="logo1.png" alt="Logo" style="height: 30px;">
+                        <span style="color: white; font-weight: 700;">RIFT AI</span>
+                    </a>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">Empowering the next generation of intelligent
+                        applications.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="products.html">Vision API</a></li>
+                        <li><a href="products.html">Language API</a></li>
+                        <li><a href="products.html">Predict API</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="team.html">About Us</a></li>
+                        <li><a href="team.html">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Stay Updated</h4>
+                    <p style="font-size: 0.9rem;">Join our newsletter for the latest AI updates.</p>
+                    <form class="newsletter-form" onsubmit="event.preventDefault();">
+                        <input type="email" placeholder="Enter your email" class="newsletter-input" required>
+                        <button type="submit" class="newsletter-btn">Go</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rift AI Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
